@@ -1,0 +1,25 @@
+{
+    "name"        : "webBuilder/demoCms",
+    "description" : "Simple CMS build to show WebBuilder usage",
+    "version"     : "0.1",
+    
+    "repositories": [{
+        "type" : "git",
+        "url"  : "https://joker806@github.com/joker806/extAdmin"
+    },{
+        "type" : "git",
+        "url"  : "https://joker806@github.com/joker806/webBuilder"
+    }],
+    
+    "require" : {
+        "php"               : ">=5.3",
+        "imagine/Imagine"   : "0.2.8",
+        "extAdmin/extAdmin" : "master-dev"
+    },
+    
+    "autoload" : {
+        "psr-0" : {
+        	"DemoCMS" : "src/"
+        }
+    }
+}

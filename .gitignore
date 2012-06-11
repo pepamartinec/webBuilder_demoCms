@@ -1,0 +1,20 @@
+##### ECLIPSE PROJECT FILES #####
+/.buildpath
+/.project
+/.settings
+
+##### COMPOSER STUFF #####
+/composer.phar
+/composer.lock
+/vendor
+
+##### JS LIBS #####
+/public/js/colorbox
+/public/js/extjs
+/public/js/pikachoose
+/public/js/sharrre
+/public/js/jquery*
+
+*.bak
+/tmp
+/public/repository
