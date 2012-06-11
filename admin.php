@@ -30,7 +30,7 @@ require 'common.php';
 			disableCaching : false,
 			paths : {
 				'extAdmin'   : 'vendor/extAdmin/extAdmin/client',
-				'WebBuilder' : 'vendor/webBuilder/webBuilder/public/js/WebBuilder/lib',
+				'WebBuilder' : 'vendor/webBuilder/extEditor/public/js/WebBuilder/lib',
 				'DemoCMS'    : 'public/js/DemoCMS/lib'
 			}
 		});

@@ -5,16 +5,19 @@
     
     "repositories": [{
         "type" : "git",
+        "url"  : "https://joker806@github.com/joker806/webBuilder"
+    },{
+        "type" : "git",
         "url"  : "https://joker806@github.com/joker806/extAdmin"
     },{
         "type" : "git",
-        "url"  : "https://joker806@github.com/joker806/webBuilder"
+        "url"  : "https://joker806@github.com/joker806/webBuilder_extEditor"
     }],
     
     "require" : {
-        "php"               : ">=5.3",
-        "imagine/Imagine"   : "0.2.8",
-        "extAdmin/extAdmin" : "master-dev"
+        "php"                  : ">=5.3",
+        "imagine/Imagine"      : "0.2.8",
+        "webBuilder/extEditor" : "master-dev"
     },
     
     "autoload" : {
